@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myCV/static/css/main.bb622258.chunk.css",
+    "main.css": "/myCV/static/css/main.03093fc8.chunk.css",
     "main.js": "/myCV/static/js/main.9dfd92fe.chunk.js",
     "main.js.map": "/myCV/static/js/main.9dfd92fe.chunk.js.map",
     "runtime~main.js": "/myCV/static/js/runtime~main.cdd95223.js",
@@ -9,10 +9,10 @@
     "static/js/2.b6caae67.chunk.js": "/myCV/static/js/2.b6caae67.chunk.js",
     "static/js/2.b6caae67.chunk.js.map": "/myCV/static/js/2.b6caae67.chunk.js.map",
     "index.html": "/myCV/index.html",
-    "precache-manifest.4015f20d98d1b4586cfcdf1d53416866.js": "/myCV/precache-manifest.4015f20d98d1b4586cfcdf1d53416866.js",
+    "precache-manifest.db5076bfeb9c2dbf6c96564c642696ac.js": "/myCV/precache-manifest.db5076bfeb9c2dbf6c96564c642696ac.js",
     "service-worker.js": "/myCV/service-worker.js",
     "static/css/2.bc5e0df1.chunk.css.map": "/myCV/static/css/2.bc5e0df1.chunk.css.map",
-    "static/css/main.bb622258.chunk.css.map": "/myCV/static/css/main.bb622258.chunk.css.map",
+    "static/css/main.03093fc8.chunk.css.map": "/myCV/static/css/main.03093fc8.chunk.css.map",
     "static/media/ava.png": "/myCV/static/media/ava.fca0c463.png"
   }
 }
