@@ -43,13 +43,14 @@ body {
 
       &__list {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
       }
 
       &__item {
         display: block;
         border: 1px solid white;
-        margin: 0 5px;
+        margin: 5px 5px;
         padding: 0 5px;
       }
     }
