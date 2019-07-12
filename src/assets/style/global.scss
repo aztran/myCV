@@ -38,11 +38,19 @@ body {
       &-wrapper {
         display: flex;
         flex-flow: column;
+        padding: 0;
       }
 
       &__list {
         display: flex;
         justify-content: space-between;
+      }
+
+      &__item {
+        display: block;
+        border: 1px solid white;
+        margin: 0 5px;
+        padding: 0 5px;
       }
     }
 

@@ -7,7 +7,7 @@ const Introduction = () => {
     <Element name='introduction' className='introduction'>
       <section className='introduction'>
         <h5 className='introduction__about'>
-          <i class='fas fa-account' /> About Me
+          <i class='fas fa-robot' /> About Me
         </h5>
         <div className='summary'>
           <p>Hello, I'm Andra Riztyan<br />

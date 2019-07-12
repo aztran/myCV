@@ -49,12 +49,18 @@ const Sidebar = () => {
 
 
         <div className='medsos-wrapper'>
-          <h5 className='sidebar__title'>Touch Me</h5>
+          <h5 className='sidebar__title'>Contacts</h5>
           <ul className='medsos__list'>
             <li className='medsos__item'>
               <i className='far fa-envelope medsos__icon ' />
               <a href='mailto:andra.riztyan@gmail.com'>
                 andra.riztyan@gmail.com
+                </a>
+            </li>
+            <li className='medsos__item'>
+              <i className='far fa-envelope medsos__icon ' />
+              <a href='#'>
+                08127277722
                 </a>
             </li>
             <li className='medsos__item'>
