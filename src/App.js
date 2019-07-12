@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Layout from './components/layout/Layout';
+import Sidebar from './components/sidebar/Sidebar';
+import Introduction from './pages/intrdouction/Introduction';
+import 'materialize-css/dist/css/materialize.min.css';
 
-function App() {
+import Experience from './pages/experience/Experience';
+import Sticky from 'react-stickynode';
+import './assets/style/global.scss';
+import Projects from './pages/projects/projects';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="my-wrapper">
+      <Sidebar />
+      <Layout>
+
+        <Introduction />
+
+        <Experience />
+        <Projects/>
+
+      </Layout>
     </div>
+
   );
-}
+};
 
 export default App;

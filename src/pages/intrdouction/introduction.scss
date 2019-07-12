@@ -1,0 +1,20 @@
+.introduction {
+  // padding-bottom: 5rem;
+  &__about {
+    display: flex;
+    color: #3b96d8;;
+    font-weight: bold;
+    i {
+      margin-right: 8px
+    }
+  }
+
+  .summary {
+
+   p {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 20px;
+   }
+  }
+}

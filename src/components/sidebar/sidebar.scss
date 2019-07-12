@@ -1,0 +1,153 @@
+.stickyNav
+{
+  background:red;
+}
+
+.sidebar {
+  height: 100%;
+  // padding: 0;
+  // float: left;
+  // width: 300px;
+  position: fixed;
+  overflow: scroll;
+  z-index: 1001;
+  // background: #3b96d8;
+  // -webkit-transition: 0.5s;
+  // -o-transition: 0.5s;
+  // transition: 0.5s;
+
+  background: #3b96d8;
+    // position: absolute;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+
+  &__title {
+    text-transform: uppercase;
+    // font-size: 6px;
+    font-weight: 700;
+  }
+
+  // flex: 0;
+
+  &__header {
+    // margin-top: 40px;
+  }
+
+  .ava {
+    &-wrapper {
+      padding: 30px 0 30px 0;
+      background-color: #317db5;
+      color: white;
+    }
+
+    &-img {
+      width: 150px;
+      height: 150px;
+      // margin: 0 auto;
+      background: white;
+      // margin-bottom: 30px;
+    }
+  }
+
+  .nav {
+    &-wrapper {
+      // padding: 30px;
+      background: #3b96d8;
+    }
+
+    &__list {
+      display: flex;
+      flex-flow: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      // background: red;
+      color: white;
+      margin: 0;
+    }
+
+    &__item {
+      // display: block;
+      display: flex;
+      cursor: pointer;
+      width: 100%;
+      padding: 10px;
+      background: linear-gradient(to right, #3b96d8 50%, #317db5 50%);
+      background-size: 200% 100%;
+      background-position: left bottom;
+      // margin-left: 10px;
+      transition: all 2s ease;
+
+      &:hover {
+        color: white;
+        // background: #317db5;
+        transition: all 0.25s ease-in;
+        /** START THE FINAL STATE STYLING **/
+        background-position: right bottom;
+      }
+    }
+
+    &__name {
+      color: white;
+      // cursor: pointer;
+    }
+  }
+
+  .edu {
+    &-wrapper {
+      padding: 10px 30px;
+     
+    }
+
+    &__container, &__item {
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+    }
+
+  
+  }
+
+  .medsos {
+    &-wrapper {
+      padding: 10px 30px;
+    }
+
+    &__item {
+      // text-align: left;
+      display: flex;
+      align-items: center;
+
+      a {
+        color: white;
+      }
+    }
+
+    &__icon {
+      margin-right: 12px;
+      color: white;
+    }
+  }
+
+  .language {
+    &-wrapper {
+      padding: 10px 30px;
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+    }
+
+    &__item {
+      // text-align: left;
+      display: flex;
+      align-items: center;
+
+      &--title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+}
