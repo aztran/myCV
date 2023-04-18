@@ -58,12 +58,6 @@ const Sidebar = () => {
                 </a>
             </li>
             <li className='medsos__item'>
-              <i className='far fa-envelope medsos__icon ' />
-              <a href='#'>
-                08127277722
-                </a>
-            </li>
-            <li className='medsos__item'>
               <i className='fab fa-github medsos__icon' />
               <a href='https://github.com/aztran'>github.com/aztran</a>
             </li>
